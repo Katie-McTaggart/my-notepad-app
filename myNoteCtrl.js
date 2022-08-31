@@ -4,5 +4,7 @@ app.controller("myNoteCtrl", function($scope) {
     $scope.clear = function() {
         $scope.message = "";
     };
-
-    });
+    $scope.save = function() {
+        alert("Note Saved");
+    };
+});
